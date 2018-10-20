@@ -1,2 +1,2 @@
-# UniLecs-Tasks
-Excersises on Python and C#
+This repository was created for my solutions
+of tasks for UniLecs
