@@ -1,4 +1,6 @@
 def main(N):
+    if N == 1:
+        return 1
     i = 2
     dels = list()
     while i < 10:
