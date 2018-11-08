@@ -8,7 +8,7 @@ def main(arr):
         if arr[i] < 0:
             negative_sum += (-1) * arr[i]
             negative.append(arr[i])
-        elif arr[i] > 0:
+        else:
             positive_sum += arr[i]
             positive.append(arr[i]) 
 
