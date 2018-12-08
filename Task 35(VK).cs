@@ -19,8 +19,8 @@ public class Program
 		// то последовательно сравниваем цифры старших разрядов "чисел"
 		for (int i = 0; i < first.Length; i++)
 		{
-			int firstDigit =first[i];
-			int secondDigit = Convert.ToInt32(second[i]);
+			int firstDigit = first[i];
+			int secondDigit = second[i];
 			if (firstDigit > secondDigit)
 			{
 				return first;
