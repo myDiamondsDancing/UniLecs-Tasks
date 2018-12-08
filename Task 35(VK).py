@@ -1,4 +1,4 @@
-def main(a : str, b : str) -> int:
+def main(a : str, b : str) -> str:
     if len(a) > len(b):
         return a
     elif len(b) > len(a):
