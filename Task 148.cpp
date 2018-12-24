@@ -3,6 +3,7 @@
 
 using namespace std;
 
+
 void func(vector<int> v)
 {
 	int i = 0;
