@@ -11,15 +11,12 @@ public class Program
 		{
 			if (arr[r] != 0)
 			{
-				arr2[i] = arr[r];
+				arr[i] = arr[r];
 				i++;
 			}	
 		}
 		
-		int n = arr.Length - i;
-		int j = i;
-		
-		for (int k = j; k < n; k++)
+		for (int k = i; k < arr.Length; k++)
 		{
 			arr[k] = 0;
 		}	
