@@ -6,25 +6,24 @@ using namespace std;
 void func(vector<int> v)
 {
 	int i = 0;
-	int arr2[v.size()];
 		
 	for (int r = 0; r < v.size(); r++)
 	{
 		if (v[r] != 0)
 		{
-			arr2[i] = v[r];
+			v[i] = v[r];
 			i++;
 		}	
 	}
 	
 	for (int k = i; k < v.size(); k++)
 	{
-		arr2[k] = 0;
+		v[k] = 0;
 	}	
 		
 	for (int x = 0; x < v.size(); x++)
 	{
-	    cout << arr2[x] << endl;
+	    cout << v[x] << endl;
 	}
     
 }
