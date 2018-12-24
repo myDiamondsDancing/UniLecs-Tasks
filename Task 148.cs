@@ -6,7 +6,6 @@ public class Program
 	public static int[] func(int[] arr)
 	{
 		int i = 0;
-		int[] arr2 = new int[arr.Length];
 		
 		for (int r = 0; r < arr.Length; r++)
 		{
@@ -22,10 +21,10 @@ public class Program
 		
 		for (int k = j; k < n; k++)
 		{
-			arr2[k] = 0;
+			arr[k] = 0;
 		}	
 		
-		return arr2;
+		return arr;
 	}
 	
 	
