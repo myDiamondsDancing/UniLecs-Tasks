@@ -1,4 +1,4 @@
-def main(arr) -> list:
+def main(arr) -> tuple:
     map = dict()  # Hashmap
     
     for i in range(len(arr)): # for (int i = 0; i < arr.Lenght, i++){}
